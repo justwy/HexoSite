@@ -6,7 +6,7 @@
 title: less is_more
 subtitle:
 description:
-author: iteacat
+author: less is_more
 language: en
 timezone: America/New_York
 
@@ -69,5 +69,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:justwy/justwy.github.io.git
+  repo: 
+    github: git@github.com:justwy/justwy.github.io.git
+    gitcafe: git@gitcafe.com:justwy/justwy.git,gitcafe-pages
   branch: master
