@@ -86,6 +86,7 @@ sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
 ```
 后面这句话作用是：立刻让LINUX支持NAT(platinum)
 > 回复中*[湘闽_计然](http://weibo.com/hexiangmin)*指出: 这条规则上面需要再增加一条，否则搭建好以后，是访问不出去的。
+
 ```sh
 iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -j SNAT --to-source 你的公网IP
 iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
