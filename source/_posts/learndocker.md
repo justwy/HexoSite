@@ -53,4 +53,6 @@ test_node_version_img   latest              583bcfe54705        3 minutes ago   
 node                    latest              5e14c005b7f7        2 days ago          644.2 MB
 ```
 
-> [docker run 具体使用说明](https://docs.docker.com/engine/reference/run/)
+[1] [docker run 具体使用说明](https://docs.docker.com/engine/reference/run/)
+
+[2] [参考教程](http://dockone.io/article/102)
