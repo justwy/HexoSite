@@ -53,6 +53,25 @@ test_node_version_img   latest              583bcfe54705        3 minutes ago   
 node                    latest              5e14c005b7f7        2 days ago          644.2 MB
 ```
 
+Example commands:
+```
+One liner to stop / remove all of Docker containers:
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+Remove all dangling images:
+docker rmi $(docker images -f dangling=true -q)
+
+
+docker run -it --rm ubuntu:14.04 bash
+-i 交互式操作
+-t 终端
+--rm 容器推出后随之将其删除
+
+Remove all images:
+docker rmi $(docker images -a -q)
+```
+
 [1] [docker run 具体使用说明](https://docs.docker.com/engine/reference/run/)
 
 [2] [参考教程](http://dockone.io/article/102)
