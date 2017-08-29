@@ -7,3 +7,4 @@ date: 2016-01-03 03:04:13
 ![I am like this](/uploads/about_me.gif)
 ![She is like that](/uploads/about_jing.gif)
 ![Cats are like this](/uploads/about_cats.gif)
+![xmd is like that](/uploads/about_xmd.gif)
