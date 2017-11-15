@@ -1,10 +1,10 @@
 ---
-title: design_doc_template
+title: Design Doc Template
 date: 2017-11-07 13:29:27
 tags:
 ---
 
-# Introduction
+# Introduction 
 
 ## Summary
 - Provide a single line summary of project
