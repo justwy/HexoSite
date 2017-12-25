@@ -12,7 +12,7 @@ timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://justwy.github.io
+url: http://treq.me
 root: /
 permalink: :title-:year:month:day/
 permalink_defaults:
