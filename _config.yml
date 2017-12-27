@@ -70,6 +70,6 @@ theme: yinwang
 deploy:
   type: git
   repo:
-    github: git@github.com:justwy/justwy.github.io.git
+    github: git@github.com:justwy/treq.me
     #gitcafe: git@gitcafe.com:justwy/justwy.git,gitcafe-pages
   branch: master
