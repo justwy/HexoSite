@@ -12,7 +12,7 @@ timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://treq.me
+url: treq.me
 root: /
 permalink: :title-:year:month:day/
 permalink_defaults:
@@ -70,6 +70,6 @@ theme: yinwang
 deploy:
   type: git
   repo:
-    github: git@github.com:justwy/treq.me
+    github: git@github.com:justwy/justwy.github.io.git
     #gitcafe: git@gitcafe.com:justwy/justwy.git,gitcafe-pages
   branch: master
